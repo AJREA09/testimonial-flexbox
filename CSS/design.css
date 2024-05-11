@@ -1,35 +1,67 @@
 .opinions-wrapper {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+    height: 100%;
     background-color: #f0f0f0;
-    padding: 200px;
+    
+
 }
 
 .opinions-section {
     display: flex;
+    flex-direction: row;
+    gap: 60px;
     justify-content: center;
-    max-width: 1800px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
 }
 
 .opinion {
-    max-width: 600px;
-    padding: 10px;
+
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     text-align: center;
-    font-size: 18px;
+    font-size: 15px;
     color: #333;
-    margin-bottom: 10px;
     font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    
+
 }
+
+
+.imagen {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.imagen .encabezado {
+    display: flex;
+    text-align: left;
+
+}
+
+.graduate{
+opacity: 0.5;
+
+}
+.imagen img {
+    margin-right: 10px; 
+    
+}
+
+.info {
+    flex-grow: 1; 
+}
+
+
 
 .opinion .bold {
     font-weight: bold;
@@ -37,54 +69,53 @@
 
 .opinion p {
     text-align: left;
-    display: flex;
 }
 
 .opinion img {
     border-radius: 50%;
-    margin-right: 10px;
 }
 
 .large-paragraph {
-    opacity: 0.7; /* Opacidad del 70% para párrafos grandes */
+    opacity: 0.7;
 }
 
 
 .purple {
     color: white;
-    background-color: #7541c8; /* Morado */
-    margin-right: 5%;
-    width: 200%;
+    background-color: #7541c8;
+    width: 130%;
+
 }
 
 .white1{
     color: #48556a;
-    margin-right: 5%;
-    width: 60%;
-    padding-bottom: 17%;
-    margin-top: -2.5%;
+    align-content: center;
+    width: 50%;
+    
 }
 
 .white2{
     color: #48556a;
-    margin-left: -18%;
-    padding-bottom: 26.7%;
-    width: 60%;
+    width: 31%;
+    margin-left: 2%;
+
 }
 
 .grey {
-    background-color: #48556a; /* Gris */
+    background-color: #48556a;
     color: white;
-    margin-bottom: 9%;
-    margin-left: 13%;
-    width: 60%;
-    padding-bottom: 13.2%;
+    width: 70%;
+    margin-left: 35%;
+
 }
 
 .darkblue {
-    background-color: #19212e; /* Azul oscuro */
+    background-color: #19212e;
     color: white;
-    margin-top: -10%;
-    margin-left: -30%;
-    margin-right: 24%;
+    width: 163%;
+    margin-bottom: 80px;
+    margin-left: -58%;
+    margin-right: 100%;
+    
+
 }
